@@ -5,7 +5,7 @@
 npm init
 ```
 
-## Instalar dependências
+## Instalar dependÃªncias
 
 ```
 npm install --save grpc
@@ -19,8 +19,8 @@ npm install --save readline-sync
 
 # Executar
 ```
-node server.js
+npm run server
 ```
 ```
-node client.js
+npm run client
 ```
