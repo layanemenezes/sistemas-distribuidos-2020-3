@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package lanche;
+
+message Vazia { }
+
+message Lanche {
+  int32 id = 1;
+  string nome = 2;
+  float preco = 3;
+}
+
+message PrecoTotal {
+  float valor = 1;
+}
+
+message ListaDeLanches {
+  repeated Lanche lanches = 1;
+}
+
+service ServicoLanche {
+  rpc RegistrarPedido (Lanche) returns (Vazia);
+  rpc ListarLanches (Vazia) returns (ListaDeLanches);
+  rpc FinalizaPedido (Vazia) returns (PrecoTotal);
+}

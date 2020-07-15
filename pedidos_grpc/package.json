@@ -1,0 +1,18 @@
+{
+  "name": "pedidos_grpc",
+  "version": "1.0.0",
+  "description": "Serviço de Pedidos utilizando GRPC",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm run server",
+    "client": "npm run client"
+  },
+  "author": "Layane Menezes Azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.5",
+    "grpc": "^1.24.3",
+    "readline-sync": "^1.4.10"
+  }
+}
