@@ -1,12 +1,16 @@
 # Iniciar npm
+```
 npm init -y
-
-# Dependencias
-
+```
+# Dependências
+```
 npm install --save express
-npm install --save @grpc/proto-loader
 npm install --save axios
-
-# excutar
+```
+# Executar
+```
 node server.js
+```
+```
 node client.js
+```
