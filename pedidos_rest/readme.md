@@ -6,6 +6,7 @@ npm init -y
 ```
 npm install --save express
 npm install --save axios
+npm install --save readline-sync
 ```
 # Executar
 ```
