@@ -1,11 +1,11 @@
-# 
+# Serviço de Pedidos utilizando gRPC
 ## Iniciar npm
 
 ```
 npm init
 ```
 
-## Instalar depend�ncias
+## Instalar dependências
 
 ```
 npm install --save grpc
@@ -17,10 +17,10 @@ npm install --save @grpc/proto-loader
 npm install --save readline-sync
 ```
 
-# Executar
+## Executar
 ```
-node server.js
+npm run server
 ```
 ```
-node client.js
+npm run client
 ```
