@@ -1,11 +1,11 @@
 
 # Projeto que utiliza a API de Sockets em Node.js para comunicação Remota
 
-# Dependências
+## Dependências
 ```
 npm install --save readline-sync
 ```
-# Executar
+## Executar
 ```
 node server.js
 ```
