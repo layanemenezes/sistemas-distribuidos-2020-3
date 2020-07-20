@@ -1,0 +1,15 @@
+{
+  "name": "projeto_final",
+  "version": "1.0.0",
+  "description": "Para a instalação do MQTT.js: ``` npm install mqtt ```",
+  "main": "app.js",
+  "dependencies": {
+    "mqtt": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Layane Menezes Azevedo",
+  "license": "ISC"
+}
